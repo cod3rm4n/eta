@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/BildirimFg"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    xmlns:tools="http://schemas.android.com/tools">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+  <TextView
+      android:id="@+id/mesaj"
+      android:layout_marginTop="10dp"
+      android:textColor="#000"
+      android:textSize="17sp"
+      android:text="Eklediğiniz bildirimleri silmek için bildirimin üzerine basılı tutabilirsiniz."
+      android:layout_gravity="center"
+      android:layout_width="350dp"
+      android:paddingLeft="5dp"
+      android:layout_height="50dp" />
+  <ListView
+      android:layout_below="@+id/mesaj"
+      android:id="@+id/lvBildirimler"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp">
+  </ListView>
+  </LinearLayout>
+</RelativeLayout>

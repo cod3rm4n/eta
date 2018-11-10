@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#09F</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="pembe">#d6080b</color>
+    <color name="kahve">#ce6215</color>
+    <color name="profilbtn">#54b7d6</color>
+
+</resources>

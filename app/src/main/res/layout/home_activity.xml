@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/homeact"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--FRAME LAYOUT-->
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/navigation"
+        android:layout_below="@id/ToolBar"
+        android:scrollbars="vertical" />
+    <!--//TOOLBAR YERİ-->
+
+    <Toolbar
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:id="@+id/ToolBar"
+        android:background="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Toolbar>
+    <!--//TOOLBAR BİTTİMİ-->
+
+    <!--NEGATİV BUTONLAR -->
+    <android.support.design.widget.BottomNavigationView
+        app:labelVisibilityMode="unlabeled"
+        android:background="?android:attr/windowBackground"
+        android:layout_alignParentBottom="true"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="start"
+        app:menu="@menu/my_navigation_items"/>
+
+    </RelativeLayout>

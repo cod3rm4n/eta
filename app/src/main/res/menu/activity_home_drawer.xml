@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/cikisss"
+            android:icon="@drawable/common_full_open_on_phone"
+            android:title="Çıkış Yap"/>
+        <item
+            android:id="@+id/kapat"
+            android:icon="@drawable/ic_action_navigation_close_inverted"
+            android:title="Uygulamayı Kapat"
+            />
+    </group>
+
+
+</menu>
