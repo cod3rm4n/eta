@@ -42,12 +42,14 @@
                 android:textStyle="bold" />
 
             <EditText
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
                 android:id="@+id/etkbaslik"
-                android:layout_width="350dp"
-                android:layout_height="75dp"
-                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
                 android:background="@drawable/textradius"
-                android:paddingLeft="10dp" />
+                android:paddingLeft="10dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -58,12 +60,14 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/etktarih"
-                android:layout_width="350dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
                 android:layout_height="50dp"
-                android:layout_marginTop="10dp"
+                android:id="@+id/etktarih"
+                android:layout_width="match_parent"
                 android:background="@drawable/textradius"
                 android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"
                 android:textStyle="bold" />
 
             <TextView
@@ -75,8 +79,10 @@
                 android:textStyle="bold" />
 
             <EditText
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
                 android:id="@+id/etkicerik"
-                android:layout_width="350dp"
+                android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/textradius"
@@ -98,9 +104,10 @@
                 android:textColorHint="#000" />
 
             <ImageView
+                android:scaleType="centerCrop"
                 android:id="@+id/targetimage"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_width="300dp"
+                android:layout_height="200dp" />
 
             <Button
                 android:id="@+id/etkekle"

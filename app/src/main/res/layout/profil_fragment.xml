@@ -89,10 +89,9 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/ic_location_city_black_50dp" />
+                        android:background="@drawable/ic_location_city_black_24dp" />
 
                     <TextView
-
                         android:id="@+id/profilSehir"
                         android:layout_width="250dp"
                         android:layout_height="50dp"
@@ -109,7 +108,7 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/ic_phone_black_50dp" />
+                        android:background="@drawable/ic_phone_black_24dp" />
 
                     <TextView
 
@@ -124,12 +123,6 @@
             <!--ANA LAYOT BİTİŞ-->
 
             <!--LOGO YERİ-->
-            <TextView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginTop="70dp"
-                android:layout_marginBottom="50dp"
-                android:background="@drawable/etalogo" />
             <!--LOGO YERİ BİTİŞ-->
 
         </LinearLayout>
